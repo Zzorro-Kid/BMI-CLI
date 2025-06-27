@@ -23,22 +23,21 @@ A simple terminal-based BMI calculator written in C. Supports Russian and Englis
 
 # 🚀 Run
 
-  1. **Copy or Download** project from GitHub
+  1. Clone or download this repository:
+ 
+    git clone https://github.com/Zzorro-Kid/Health_Checker_CLI.git
   
   2. Go to installed project folder and **Build** the program:
         
-        ```bash
-        ./build.sh
+    ./build.sh
         
   3. Then simply **Run** the program: 
   
-        ```bash
-        ./run_again.sh
+    ./run_again.sh
     
     
 # 📌 Notes
 
  Ensure **build.sh** and **run_again.sh** have execute permissions!: 
 
-        ```bash
-        chmod +x build.sh run_again.sh
+     chmod +x build.sh run_again.sh
