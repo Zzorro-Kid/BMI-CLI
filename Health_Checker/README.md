@@ -17,7 +17,7 @@ A simple terminal-based BMI calculator written in C. Supports Russian and Englis
 
 # 🛠 Requirements
 
-  - GCC compiler
+  - G++ compiler
   - Linux terminal (GNOME Terminal or compatible)
 
 
