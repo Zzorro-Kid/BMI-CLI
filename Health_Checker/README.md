@@ -1,4 +1,4 @@
-# Health Check CLI (C# Version)
+# Health Check CLI 
 
 A simple terminal-based BMI calculator written in C#. Supports Russian and English language input and provides basic health recommendations based on BMI and age.
 
