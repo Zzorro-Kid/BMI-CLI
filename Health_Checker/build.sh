@@ -1,14 +1,15 @@
 #!/bin/bash
 
-gcc main.c -o health
+g++ main.cpp -o health
 
 cat <<EOF > run_again.sh
 #!/bin/bash
 ./health
 echo
-read -p "Нажмите Enter для выхода..."
+read -p "Press Enter to exit..."
 EOF
 
+# Make the new script executable
 chmod +x run_again.sh
 
 echo "File run_again.sh created and ready to start ;)"
