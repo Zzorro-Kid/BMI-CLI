@@ -18,8 +18,6 @@ A simple terminal-based BMI calculator. Supports Russian and English language in
 ## 🛠 Requirements
 
  - **Compiler**: GCC 9+ or Clang 10+ (or MSVC for Windows)
- - **C++ Standard**: C++17 or later
- - **Build System**: CMake (recommended) or direct compilation
 
 
 ## 🚀 Install & Run
@@ -34,5 +32,5 @@ A simple terminal-based BMI calculator. Supports Russian and English language in
     
   3. Compile & Run:
 
-    g++ -std=c++17 -o health_checker main.cpp
-    ./health_checker
+    gcc main.c -o main
+    ./main
