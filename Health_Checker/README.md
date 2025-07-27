@@ -1,9 +1,11 @@
-# Health Check CLI 
+## BMI CLI 
 
 A simple terminal-based BMI calculator. Supports Russian and English language input and provides basic health recommendations based on BMI and age.
 
+<img width="578" height="101" alt="image" src="https://github.com/user-attachments/assets/7432e59d-7251-424f-a62f-d90675d1aaf4" />
 
-## ✨ Features
+
+### ✨ Features
 
 - Input: name, age, height, weight
 - Language switch: `ru` / `en`
@@ -12,15 +14,14 @@ A simple terminal-based BMI calculator. Supports Russian and English language in
   - Normal
   - Overweight
   - Obesity
-- Custom recommendation for users under 17
 
 
-## 🛠 Requirements
+### 🛠 Requirements
 
- - **Compiler**: GCC 9+ or Clang 10+ (or MSVC for Windows)
+ - **G++ Compiler**
+   
 
-
-## 🚀 Install & Run
+### 🚀 Install & Run
 
   1. Clone or download this repository
 
@@ -32,5 +33,5 @@ A simple terminal-based BMI calculator. Supports Russian and English language in
     
   3. Compile & Run:
 
-    gcc main.c -o main
+    g++ main.cpp -o main
     ./main
